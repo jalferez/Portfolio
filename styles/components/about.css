@@ -1,0 +1,25 @@
+.about__content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about__title{
+    font-size: var(--size-2xl);
+    color: var(--clr-light);
+}
+
+.about__description{
+    max-width: 60ch;
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
+}
+
+.about__hr{
+    border-color: var(--clr-slate800);
+}
+
+.about__subtitle{
+    font-size: var(--size-sm);
+    color: var(--clr-slate-400);
+}
